@@ -1,0 +1,233 @@
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    color: #5f6368;
+    line-height: 35px;
+}
+
+li {
+    flex: row;
+    display: inline-block;
+}
+
+strong {
+    font-weight: 700;
+}
+
+ul {
+    width: 100%;
+}
+
+.bottomnav {
+    display: inline-block;
+    color: #5f6368;
+}
+
+.bottomnav a {
+    display: inline-block;
+    color: #5f6368;
+    padding-right: 20px;
+}
+
+.blurb {
+    color: #545454;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+}
+
+.domain-link {
+    padding-bottom: 5px;
+}
+
+.domain-link a {
+    color: #006621;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.footer-row-1 {
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    display: flex;
+    font-size: 15px;
+    margin-left: 75px;
+    padding-left: 80px;
+    bottom: 40px;
+    width: 100%;
+}
+
+.footer-row-2 {
+    margin-left: 155px;
+}
+
+.links-list {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 92 px repeat(6, 10px) 60%;
+    grid-template-rows: 1fr;
+    padding: 0 5px 5px 5px;
+}
+
+.links-list-sub {
+    display: grid;
+    grid-template-columns: 150px 30px 50px 50px 40px 40px 35px 50px 145px 50px 1px 30px;
+    grid-template-rows: 1fr;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+.links-list-sub a {
+    color: #5f6368;
+}
+
+.primary-link {
+    color: #1a0dab;
+    font-size: 20px;
+    line-height: 1.3;
+    padding-bottom: 5px;
+}
+
+.result-1 {
+    grid-area: one;
+}
+
+.result-2 {
+    grid-area: two;
+}
+
+.result-3 {
+    grid-area: three;
+}
+
+.result-4 {
+    grid-area: four;
+}
+
+.result-5 {
+    grid-area: five;
+}
+
+.result-6 {
+    grid-area: six;
+}
+
+.result-7 {
+    grid-area: seven;
+}
+
+.results-amount {
+    color: #777;
+    line-height: 43px;
+    font-size: 14px;
+    margin-left: 150px;
+}
+
+.result-item {
+    margin-bottom: 20px;
+}
+
+.rightnav1 {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+}
+
+.rightnav2 {
+    position: absolute;
+    top: 15px;
+    right: 55px;
+}
+
+.search-results {
+    display: grid;
+    margin: 10px 60% 10px 40px;
+    grid-template-columns: 110px 2fr 3fr;
+    grid-auto-rows: auto;
+    grid-template-areas: 
+        ". one ."
+        ". two ."
+        ". three ."
+        ". four ."
+        ". five ."
+        ". six ."
+        ". seven .";
+        width: 100%;
+}
+
+.top-section {
+    display: flex;
+    width: 100%;
+    height: 80px;   
+}
+
+#all {
+    grid-column: 2 / span 1;
+}
+
+#images {
+    grid-column: 3 / span 1;
+}
+
+#videos {
+    grid-column: 4 / span 1;
+}
+
+#news {
+    grid-column: 5 / span 1;
+}
+
+#maps {
+    grid-column: 6 / span 1;
+}
+
+#more {
+    grid-column: 7 / span 1;
+}
+
+#settings {
+    grid-column: 10 / span 1;
+}
+
+#tools {
+    grid-column: 11 / span 1;
+}
+
+#footer-1A {
+    font-size: 15px;
+    flex: row;
+    padding-right: 10px;
+    border-right: 1px solid #e4e4e4e4;
+}
+
+#footer-1B {
+    font-size: small;
+    flex: row;
+    padding-left: 20px;
+}
+
+#google-logo {
+    display: inline-block;
+    margin: 20px 0 20px 20px;
+}
+
+#line-break {
+    border-top: 1px solid #e4e4e4;
+}
+
+#searchbar {
+    background-image: url(searchbar-background.png);
+    background-size: contain;
+    display: inline-block;
+    margin: 20px 0 20px 30px;
+    width: 550px;
+    height: 34px;
+    border-radius: 23px;
+}

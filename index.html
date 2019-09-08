@@ -2,28 +2,33 @@
 <html>
 <header>
     <title>Google</title>
+    <link rel = "Stylesheet" href = "reset.css">
     <link rel = "Stylesheet" href = "styles.css">
 </header>
 <body>
-    <nav class = "topbar">
-        <li class = "leftnav"><a href = "About.html">About</a></li>
-        <li class = "leftnav"><a href = "Store.html">Store</a></li>  
-        <li class = "rightnav imgbutton"><img src = "Google-accounts-img.png" heght = "32px" width = "32px" alt = "Google Account: Name"></li>
-        <li class = "rightnav imgbutton"><img src = "Google-apps-img.png" height = "30px" width = "30px" alt = "Google Apps"></li>
-        <li class = "rightnav"><a href = "Gmail.html">Gmail</a></li>
-        <li class = "rightnav"><a href = "Images.html">Images</a></li>
-       
-      
-        <li><img scr = ></li>
-    </nav>
-    <div class = "logo">
-        <p><img src = "googlelogo.png" height = "92px" width = "272px"></p>
+    <div class = "topbar">
+        <nav class = "topbar">
+            <li class = "leftnav" id= "about"><a href = "About.html">About</a></li>
+            <li class = "leftnav"><a href = "Store.html">Store</a></li>  
+            <li class = "rightnav imgbutton"><img src = "Google-accounts-img.png" heght = "40px" width = "40px" alt = "Google Account: Name"></li>
+            <li class = "rightnav imgbutton"><img src = "Google-apps-img.png" height = "30px" width = "30px" alt = "Google Apps"></li>
+            <li class = "rightnav"><a href = "Images.html">Images</a></li>
+            <li class = "rightnav"><a href = "Gmail.html">Gmail</a></li>
+                
+         </nav>
     </div>
-    <div class = "searchbar">
+    <div class = "logo">
+        <p><img src = "googlelogo.png" height = "92px" width = "272px" id = "google-logo"></p>
+    </div>
+    <div class = "searchform">
         <form action = "Google-form.txt" method = "GET">
-            <input type = "text" name = "search" id = "searchbar">
-            <input type = "submit" value = "Google Search">
-            <input type = "submit" value = "I'm Feeling Lucky"
+            <div>
+                <input type = "text" name = "search" id = "searchbar">
+            </div>
+            <div id= "buttons">
+                <input type = "submit" value = "Google Search" class = "button"> 
+                <input type = "submit" value = "I'm Feeling Lucky" class = "button">
+            </div>
         </form>
     </div>
 </body>
@@ -35,11 +40,12 @@
         <p class = "leftnav bottomnav"><a href = "advertising.html">Advertising</a></p>
         <p class = "leftnav bottomnav"><a href = "business.html">Business</a></p>
         <p class = "leftnav bottomnav"><a href = "howsearchworks.html">How Search works</a></p>
-    </div>
+    </div id = "buttons">
     <div class = footer-row-2b>
-        <p class = "rightnav"><a href = "privacy.html">Privacy</a></p>
-        <p class = "rightnav"><a href = "terms.html">Terms</a></p>
         <p class = "rightnav"><a href = "settings.html">Settings</a></p>
+        <p class = "rightnav"><a href = "terms.html">Terms</a></p>
+        <p class = "rightnav"><a href = "privacy.html">Privacy</a></p>
+              
     </div>
 </footer>
 </html>
